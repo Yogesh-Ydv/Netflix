@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+header{
+    background-image: url("image.jpg");
+    width: 100vw;
+    height: 80vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1000px,100vw);
+}
+.cover{
+    background-color: black;
+    width: 100%;
+    height: 80vh;
+    position: absolute;
+    top: 0px;
+    opacity: 0.6;
+}
+.logo{
+    width: 150px;
+    z-index: 1;
+    
+}
+select,#sign-in{
+    padding: 6px;
+    font-size: large;
+    background-color: black;
+    color: white;
+    border-radius: 4px;
+    position: relative;
+}
+select{
+    border: 1px solid white;
+}
+#sign-in{
+    background-color: red;
+}
+nav{
+    display: flex;
+    max-width: 80vw;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+}
+.content{
+    color: white;
+    position: relative;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 30px;
+}
+h1{
+    word-spacing: 6px;
+    font-weight: bolder;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 40px 15px 15px 15px;
+}
+h4,p{
+    padding: 15px;
+}
+.search{
+    position:relative ;
+    display: flex;
+    justify-content: center;
+    gap: 6px;
+    padding-top: 20px;
+}
+.Email,.search-btn{
+    padding: 10px;
+    border-radius: 5px;
+    font-size: large;
+    font-weight: 500;
+}
+.Email{
+    padding-right: 60px;
+    background-color: rgba(23, 23, 23, 0.9);
+    color: white;
+    opacity: 0.5;
+    border: 1px solid white;
+}
+
+.search-btn{
+    background-color: red;
+    color: white;
+}
+
+.seperator{
+    width: 100vw;
+    height: 4px;
+    background-color: darkgrey;
+}
+.first-sec{
+    display: flex;
+    max-width: 70vw;
+    margin: auto;
+    align-items: center;
+     
+}
+.text-area{
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 10px;
+}
+.text-area>:nth-child(1){
+    font-size: 48px;
+    width: auto;
+    z-index: 10;
+    padding: 20px 0px;
+}
+.text-area>:nth-child(2){
+    font-size: 24px;
+}
+.img-tv{
+    width: 30vw;
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    padding-bottom: 2vh;
+}
+.vid-1{
+    position: absolute;
+    right: 0px;
+}
+.sec-sec{
+    display: flex;
+    gap: 260px;
+    align-items: center;
+}
+.trd-sec{
+    display: flex;
+    align-items: center;
+}
+.vid-2{
+    position: absolute;
+    
+    right: 170px;
+    top: 1590px;
+}
+.frt-sec{
+    display: flex;
+}
+
+.faq{
+    color: white;
+    width: 90vw;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2.5vw;
+    gap: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.faq>h1{
+    font-size: 60px;
+    padding: 60px 0px 20px 0px;
+}
+.box{
+    background-color: rgba(169, 169, 169, 0.247);
+    padding: 10px;
+    font-size: 30px;
+    padding: 30px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.pad{
+    padding-bottom: 60px;
+}
+footer{
+    width: 95vw;
+    margin-left: 2.5vw;
+    padding-top: 40px;
+}
+footer>p{
+    color: rgba(255, 255, 255, 0.678);
+    font-size: 20px;
+    margin-left: -15px;
+}
+a{
+    color: rgba(255, 255, 255, 0.678);
+}
+.links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+.Net-I{
+    padding: 30px 0px;
+}
+.Net-I>a{
+    text-decoration: none;
+}
